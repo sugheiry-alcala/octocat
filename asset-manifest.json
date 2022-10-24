@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/octocat/static/js/main.04acda5e.js",
+    "index.html": "/octocat/index.html",
+    "main.04acda5e.js.map": "/octocat/static/js/main.04acda5e.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.04acda5e.js"
+  ]
+}
