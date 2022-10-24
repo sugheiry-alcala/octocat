@@ -4,15 +4,18 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack serve --mode development"
+    "start": "webpack serve --mode development",
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://sugheiry-alcala.github.io/octogat"
+    "url": "https://sugheiry-alcala.github.io/octocat"
   },
-  "homepage": "https://sugheiry-alcala.github.io/octogat",
+  "homepage": "https://sugheiry-alcala.github.io/octocat",
   "dependencies": {
     "@emotion/react": "11.8.1",
     "@emotion/styled": "11.8.1",
@@ -37,6 +40,7 @@
     "eslint-plugin-prettier": "4.0.0",
     "eslint-plugin-react": "7.29.3",
     "file-loader": "6.2.0",
+    "gh-pages": "^4.0.0",
     "html-loader": "3.1.0",
     "html-webpack-plugin": "5.5.0",
     "mini-css-extract-plugin": "2.6.0",

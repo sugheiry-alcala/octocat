@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Container } from "@mui/material";
-
 import Searcher from "./componets/Searcher";
-
 import { getGitHubUser } from './services/users'
 import UserCard from "./containers/UserCard";
 

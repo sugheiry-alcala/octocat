@@ -66,6 +66,6 @@ module.exports = {
     compress: true,
     historyApiFallback: true,
     open:true,
-    port: 3008,
+    port: 3009,
   },
 };
